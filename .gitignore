@@ -1,0 +1,15 @@
+# Ignorar archivos sensibles
+*.env
+*.log
+*.properties
+
+# Ignorar configuraciones específicas
+/backend/.env
+/frontend/.env
+/movil/.env
+/backend/*.properties
+/frontend/*.properties
+/movil/*.properties
+
+# Ignorar dependencias de Node.js
+/node_modules/

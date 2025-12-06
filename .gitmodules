@@ -1,0 +1,6 @@
+[submodule "asistente-backend"]
+	path = asistente-backend
+	url = https://github.com/memo151201/asistente-backend.git
+[submodule "asistente-frontend"]
+	path = asistente-frontend
+	url = https://github.com/memo151201/asistente-frontend.git
