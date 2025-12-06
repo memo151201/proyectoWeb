@@ -1,8 +1,7 @@
 // app/services/api.ts
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://192.168.1.90:8080/api';
-
+const API_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:8080/api';
 
 
 const getToken = async () => {
